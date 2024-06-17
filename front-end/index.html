@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/Restaurant On Site.png" type="image/x-icon">
+    <title>SM TASTE</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    
+    <!-- header section starts      -->
+    <header>
+        <a href="#" class="logo"><img src="images/Restaurant On Site 05.png">SM TASTE</a>
+        <nav class="navbar">
+            <a href="#home">Inicio</a>
+            <a href="#about">Nosotros</a>
+            <a href="#menu">Menú</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="Carro de Compras.html" class="fas fa-shopping-cart"></a>
+            <a href="login.html" class="fas fa-user"></a>
+        </div>
+    </header>
+    <!-- header section ends-->
+
+    <!-- search form  -->
+    <form action="" id="search-form">
+        <input type="search" placeholder="Buscar en SM TASTE" name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- home section starts  -->
+    <section class="home" id="home">
+        <div class="swiper-container home-slider">
+            <div class="swiper-wrapper wrapper" id="swiper-wrapper wrapper">
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+    <section class="about" id="about">
+        <h1 class="sub-heading">Acerca de nosotros</h1>
+        <h1 class="heading">Por qué escogernos? </h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/about-img.png" alt="">
+            </div>
+            <div class="content">
+                <h1 class="heading"> la mejor comida del campus universitario </h1>
+                <p>Los mejores platillos a tu mesa, elaborados a tu gusto, con una fina seleccion de ingredientes frescos de la mejor calidad.</p>
+                <p>SM Taste siempre en tu mesa.</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>Fácil de pagar</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>Atención al cliente eficiente</span>
+                    </div>
+                </div>
+                <a href="Acerca de Nosotros.html" class="btn">Leer más</a>
+            </div>
+        </div>
+    </section>
+    <!-- about section ends -->
+
+    <!-- menu section starts  -->
+    <section class="menu" id="menu">
+        <h3 class="sub-heading">Nuestro menu </h3>
+        <h1 class="heading">La especialidad de Hoy!!! </h1>
+        <div class="box-container" id="box-container">
+        </div>
+    </section>
+    <!-- menu section ends -->
+
+    <!-- footer section starts  -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Nosotros</h3>
+                <a href="Acerca de Nosotros.html"><b>Nosotros</b></a>
+                <a href="Acerca de Nosotros.html">¿Quienes somos?</a>
+                <a href="Acerca de Nosotros.html">Misión y Visión</a>
+                <a href="#">Contáctanos</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"><b>Terminos y condiciones</b></a>
+                <a href="#"><b>Avisos Legales</b></a>
+                <a href="#"><b>Política de Privacidad</b></a>
+            </div>
+        </div>
+    </section>
+    <!-- footer section ends -->
+
+    <!-- loader part  -->
+    <!--
+    <div class="loader-container">
+        <img src="images/loader.gif" alt="">
+    </div>
+    -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/utils/utils.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/carrusel.js"></script>
+</body>
+</html>

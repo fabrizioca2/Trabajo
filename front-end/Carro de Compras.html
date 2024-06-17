@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SM TASTE</title>
+    <link rel="shortcut icon" href="images/Restaurant On Site.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style-carro.css">
+</head>
+<body>
+    <!--- Empieza el header --->
+    <header>
+        <a href="index.html" class="logo"><img src="images/Restaurant On Site 05.png" alt="SM TASTE">SM TASTE</a>
+        <nav class="navbar">
+            <a href="index.html">Inicio</a>
+            <a href="index.html#about">Nosotros</a>
+            <a href="index.html#menu">Menú</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="Carro de Compras.html" class="fas fa-shopping-cart"></a>
+            <a href="login.html" class="fas fa-user"></a>
+        </div>
+    </header>
+    <!--- Termina el header --->
+
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="Buscar en SM TASTE" name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <div class="cart-container">
+        <div class="cart-header">
+            <h2>Carro (n productos)</h2>
+            <a href="index.html">Volver</a>
+        </div>
+        <div class="cart-content">
+            <div class="cart-items" id="cart-items">
+            </div>
+            <div class="cart-summary">
+                <h3>Resumen</h3>
+                <div class="summary-item">
+                    <span>Costo De Los Productos:</span>
+                    <span>S/. 00.00</span>
+                </div>
+                <div class="summary-item">
+                    <span>Costo De Envío:</span>
+                    <span>S/. 00.00</span>
+                </div>
+                <div class="summary-total summary-item">
+                    <span>TOTAL:</span>
+                    <span>S/. 00.00</span>
+                </div>
+                <div class="summary-button">
+                    <a href="Detalle de Compra.html" class="btn">Continuar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/utils/url-methods.js"></script>
+    <script src="js/utils/utils.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/carrito.js"></script>
+</body>
+</html>
